@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPPhotoViewer_Example' do
+  pod 'SPPhotoViewer', :path => '../'
+
+  target 'SPPhotoViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
