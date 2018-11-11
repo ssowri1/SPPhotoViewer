@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SPPhotoViewer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A customisable smart photoviewer of your photos'
 
 # This description is used to generate tags and improve search results.
