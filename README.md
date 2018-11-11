@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/SPPhotoViewer.svg?style=flat)](https://cocoapods.org/pods/SPPhotoViewer)
 [![Platform](https://img.shields.io/cocoapods/p/SPPhotoViewer.svg?style=flat)](https://cocoapods.org/pods/SPPhotoViewer)
 
-[![Screenshot](https://github.com/ssowri1/SPPhotoViewer/blob/master/screenshot.gif)
+![Screenshot](https://github.com/ssowri1/SPPhotoViewer/blob/master/screenshot.gif)
 
 ## Example
 
@@ -19,7 +19,7 @@ SPPhotoViewer is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SPPhotoViewer'
+pod 'SPPhotoViewer ~> 0.1.3'
 ```
 
 ## Author
