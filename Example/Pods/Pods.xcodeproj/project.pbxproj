@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00FE0527219834A400C1649F /* SPScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE0526219834A400C1649F /* SPScrollView.swift */; };
+		00FE0529219834CF00C1649F /* SPZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE0528219834CF00C1649F /* SPZoomView.swift */; };
+		00FE052B219834F500C1649F /* SPZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE052A219834F500C1649F /* SPZoomingScrollView.swift */; };
 		299379330AA2233CDECCBA993635F73C /* Pods-SPPhotoViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 818BEC4109EFCE17E4AA15C54B6A1D97 /* Pods-SPPhotoViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		485D6A36B506862283F00A78AA4F1B8A /* Pods-SPPhotoViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C1DE60264870013A2124AD5D08C689 /* Pods-SPPhotoViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71E69AF3E8EC01EA871E878576E7262B /* Pods-SPPhotoViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C4B810B2877F54335937DB7015FB3D /* Pods-SPPhotoViewer_Tests-dummy.m */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FE0526219834A400C1649F /* SPScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SPScrollView.swift; path = ../SPPhotoViewer/Classes/SPScrollView.swift; sourceTree = "<group>"; };
+		00FE0528219834CF00C1649F /* SPZoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SPZoomView.swift; path = ../SPPhotoViewer/Classes/SPZoomView.swift; sourceTree = "<group>"; };
+		00FE052A219834F500C1649F /* SPZoomingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SPZoomingScrollView.swift; path = ../SPPhotoViewer/Classes/SPZoomingScrollView.swift; sourceTree = "<group>"; };
 		09E9B5B6A032CC0D5181F919E1A3E547 /* Pods_SPPhotoViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SPPhotoViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A22D443B56AF3545CC4939332A2A511 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		148628E253DA0D2DD77172395056FF74 /* SPPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPPhotoViewer-dummy.m"; sourceTree = "<group>"; };
@@ -100,6 +106,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FE0521219833F900C1649F /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				00FE0528219834CF00C1649F /* SPZoomView.swift */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		00FE05222198340B00C1649F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				00FE0526219834A400C1649F /* SPScrollView.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		00FE05232198341800C1649F /* UIVisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				00FE052A219834F500C1649F /* SPZoomingScrollView.swift */,
+			);
+			path = UIVisualEffectView;
+			sourceTree = "<group>";
+		};
 		0E18C208E2A382373288681EF85EB864 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +247,9 @@
 		FCF60F33009F40E25C297176695A55B8 /* SPPhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				00FE05232198341800C1649F /* UIVisualEffectView */,
+				00FE05222198340B00C1649F /* UIView */,
+				00FE0521219833F900C1649F /* UIScrollView */,
 				F92BACA5D1AC107827954A5343EBA9C1 /* Pod */,
 				515740312AFAD6F710DCC7592EC9D66E /* Support Files */,
 			);
@@ -318,6 +351,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					28A2331996B0F035BDD2C02D569DBCE2 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,6 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FE052B219834F500C1649F /* SPZoomingScrollView.swift in Sources */,
+				00FE0527219834A400C1649F /* SPScrollView.swift in Sources */,
+				00FE0529219834CF00C1649F /* SPZoomView.swift in Sources */,
 				945E74D64B14C6B0277AE09C57908BE3 /* Pods-SPPhotoViewer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +611,7 @@
 			baseConfigurationReference = B6BF8BC580022F9C358392CAACD44DB6 /* Pods-SPPhotoViewer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,6 +634,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -636,6 +679,7 @@
 			baseConfigurationReference = 7E389611061C16584713BE507AC78415 /* Pods-SPPhotoViewer_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -658,6 +702,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
