@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SPPhotoViewer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SPPhotoViewer.'
+  s.summary          = 'A customisable smart photoviewer of your photos'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A customisable smart photoviewer of your photos over CocoaPods
                        DESC
 
   s.homepage         = 'https://github.com/ssowri1/SPPhotoViewer'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

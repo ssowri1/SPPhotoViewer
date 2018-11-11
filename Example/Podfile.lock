@@ -1,0 +1,16 @@
+PODS:
+  - SPPhotoViewer (0.1.0)
+
+DEPENDENCIES:
+  - SPPhotoViewer (from `../`)
+
+EXTERNAL SOURCES:
+  SPPhotoViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SPPhotoViewer: 475e1aea20469fbb7de4e7362fda42389abc119b
+
+PODFILE CHECKSUM: d71168e91ae64d9bf037997d363847c1cdffc3e6
+
+COCOAPODS: 1.5.3

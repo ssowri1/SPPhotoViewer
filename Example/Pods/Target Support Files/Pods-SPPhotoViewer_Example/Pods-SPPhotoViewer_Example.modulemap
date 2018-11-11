@@ -1,0 +1,6 @@
+framework module Pods_SPPhotoViewer_Example {
+  umbrella header "Pods-SPPhotoViewer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

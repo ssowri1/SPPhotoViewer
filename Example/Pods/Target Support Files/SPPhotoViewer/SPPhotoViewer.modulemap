@@ -1,0 +1,6 @@
+framework module SPPhotoViewer {
+  umbrella header "SPPhotoViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
